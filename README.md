@@ -1,24 +1,19 @@
-\# LetsDefend Labs
+# Blue Team Projects Portfolio
 
+Welcome to my Blue Team Projects repository! This repository contains a collection of cybersecurity labs, investigations, and hands-on exercises focused on blue team operations, incident response, and threat analysis.
 
+## Repository Structure
 
-This folder contains my hands-on blue team labs and exercises completed through the LetsDefend SOC Analyst training platform.
+- **letsdefend/** — A folder containing detailed SOC analyst labs completed through the LetsDefend platform, including investigation notes, file analysis, sandboxing, and remediation steps.
+- *(More folders coming soon as I continue to expand my portfolio.)*
 
+## Purpose
 
+This repository serves as a centralized portfolio showcasing my practical skills in threat detection, malware analysis, phishing investigations, and endpoint security through real-world simulated exercises.
 
-Each subfolder includes a specific lab scenario, along with supporting documentation, screenshots, and analysis steps I followed to investigate and respond to alerts.
+Feel free to explore the folders for detailed walkthroughs and documented evidence of my cybersecurity journey.
 
+---
 
-
-\## Completed Labs
-
-
-
-\- \*\*SOC146 - Phishing Mail Detected\*\*  
-
-&nbsp; Analysis of a phishing email alert including evidence review, email headers, and user impact.
-
-
-
-\## More labs coming soon...
+*Last updated: August 2025*
 

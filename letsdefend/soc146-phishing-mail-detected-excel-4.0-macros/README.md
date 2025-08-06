@@ -113,7 +113,7 @@ These files were extracted from a malicious ZIP attachment during an ANY.RUN san
 
 ![Email Security](images/3-email-security.png)
 
-![Are There Attachments or URLs in the Email?](images/4-playbook.png)
+![Are There Attachments or URLs in the Email?](images/4-playbook1.png)
 
 4. Extracted ZIP contents in AnyRun and analyzed the three embedded files.
    - Confirmed **Excel 4.0 macros** execution.

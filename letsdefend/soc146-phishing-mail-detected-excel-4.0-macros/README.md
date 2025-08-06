@@ -105,61 +105,61 @@ These files were extracted from a malicious ZIP attachment during an ANY.RUN san
 1. **Took ownership** of the alert in the Incident Monitoring page.
 2. Reviewed incident metadata (event ID, timestamps, sender/recipient, etc.).
 
-![Investigation Channel](letsdefend/images/1-investigation-channel.png)
+![Investigation Channel](images/1-investigation-channel.png)
 
-![Incident Details](letsdefend/images/2-incident-details.png)
+![Incident Details](images/2-incident-details.png)
 
 3. Identified a **ZIP attachment** from Email Security linked to the sender address.
 
-![Email Security](letsdefend/images/3-email-security.png)
+![Email Security](images/3-email-security.png)
 
-![Are There Attachments or URLs in the Email?](letsdefend/images/4-playbook.png)
+![Are There Attachments or URLs in the Email?](images/4-playbook.png)
 
 4. Extracted ZIP contents in AnyRun and analyzed the three embedded files.
    - Confirmed **Excel 4.0 macros** execution.
   
-![Analyze Url/Attachment](letsdefend/images/10-malicious.png)
+![Analyze Url/Attachment](images/10-malicious.png)
 
-![AnyRun](letsdefend/images/5-anyrun.png)
+![AnyRun](images/5-anyrun.png)
 
-![Infected](letsdefend/images/6-anyrun.png)
+![Infected](images/6-anyrun.png)
 
 5. Uploaded all 3 files to **VirusTotal**:
    - All files were confirmed **malicious** by multiple AV engines.
 
-![iroto1.dll](letsdefend/images/7-virustotal.png)
+![iroto1.dll](images/7-virustotal.png)
 
-![iroto.dll](letsdefend/images/8-virustotal.png)
+![iroto.dll](images/8-virustotal.png)
 
-![research-1646684671.xls](letsdefend/images/9-virustotal.png)
+![research-1646684671.xls](images/9-virustotal.png)
    
 6. Verified that the email was **delivered** to the user.
      
-![Check if Mail Delivered to User?](letsdefend/images/11-mail-delivered.png)
+![Check if Mail Delivered to User?](images/11-mail-delivered.png)
 
 7. Checked **Log Management** and confirmed the user **opened** the malicious attachment:
    - Observed connection to **command and control (C2) URLs**.
    - Matching event logs showed requests to malicious URLs.
 
-![Device Action: Allowed](letsdefend/images/12-device-action-allowed.png)
+![Device Action: Allowed](images/12-device-action-allowed.png)
 
-![Delete Email From Recipient](letsdefend/images/13-delete-email.png)
+![Delete Email From Recipient](images/13-delete-email.png)
 
-![Check if Someone opened the Malicious File/URL?](letsdefend/images/14-check-if-opened-notopened.png)
+![Check if Someone opened the Malicious File/URL?](images/14-check-if-opened-notopened.png)
 
-![Endpoint Information](letsdefend/images/15-endpoint-lars-ip.png)
+![Endpoint Information](images/15-endpoint-lars-ip.png)
 
-![Log Management](letsdefend/images/16-log-management.png)
+![Log Management](images/16-log-management.png)
 
-![Log Event 1](letsdefend/images/17-log-event1.png)
+![Log Event 1](images/17-log-event1.png)
 
-![Log Event 2](letsdefend/images/18-log-event2.png)
+![Log Event 2](images/18-log-event2.png)
 
 8. Used **Endpoint Security** to contain the host machine (Hostname: LarsPRD).
 
-![Containment](letsdefend/images/19-containment.png)
+![Containment](images/19-containment.png)
 
-![EDR Containment](letsdefend/images/20-edr-containment.png)
+![EDR Containment](images/20-edr-containment.png)
 
 9. Documented and added the following as **Artifacts**:
     - 2 Malicious URLs
@@ -167,13 +167,13 @@ These files were extracted from a malicious ZIP attachment during an ANY.RUN san
     - SMTP address
     - MD5 hashes of all 3 files
 
-![Add Artifacts](letsdefend/images/21-add-artifacts.png)
+![Add Artifacts](images/21-add-artifacts.png)
 
-![Finish Playbook](letsdefend/images/22-finish-playbook.png)
+![Finish Playbook](images/22-finish-playbook.png)
 
 10. Finalized notes and **closed the case as True Positive**.
 
-![Close Alert](letsdefend/images/23-close-alert.png)
+![Close Alert](images/23-close-alert.png)
 
 ---
 

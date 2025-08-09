@@ -39,7 +39,7 @@ An alert (EventID: **82**) was triggered for **SOC140 - Phishing Mail Detected -
    - Is the mail content suspicious? — **Yes** (pressing urgency: "Open it now!")  
    - Are there any attachments? — **Yes**
 
-   ![Email Security](email-security.png)
+   ![Email Security](images/email-security.png)
 
 3. **Analyze the attachment in a sandbox environment (AnyRun)**  
    - Downloaded the attached ZIP (protected by password), extracted `Material.pdf`.  

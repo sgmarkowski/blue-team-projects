@@ -6,17 +6,21 @@ Each subfolder documents a scenario or alert simulation — complete with screen
 
 ## Completed Labs
 
+- **45 - SOC114 – Malicious Attachment Detected (Phishing Alert)**  
+  Malicious Excel attachment opened by an internal user, leading to command-and-control activity and host containment.
+
 - **52 - SOC120 – Phishing Mail Detected (Internal to Internal)**  
-  Internal-to-internal phishing alert investigated and validated as a False Positive after domain/IP reputation checks and log review.
+  Internal phishing email flagged and investigated, ultimately identified as a false positive after thorough domain and IP checks.
 
 - **82 - SOC140 – Phishing Mail Detected (Suspicious Task Scheduler)**  
-  Analysis of a phishing email with a malicious PDF attachment that attempted to contact an external URL; IOCs recorded (file hash, URL, SMTP IP) and the case closed as a True Positive.
+  PDF attachment with suspicious behavior triggered alerts; analysis led to identifying external communication attempts and documenting IOCs.
 
 - **86 - SOC141 – Phishing URL Detected**  
-  Investigation of a phishing URL alert involving suspicious IP addresses, URL analysis, and host containment.
+  Phishing URL uncovered through suspicious IP and URL analysis; host containment followed.
 
 - **93 - SOC146 – Phishing Mail Detected (Excel 4.0 Macros)**  
-  Analysis of a phishing email with a malicious Excel 4.0 macro and DLL payloads, sandbox execution, and documentation.
+  Excel 4.0 macro-based phishing email with DLL payloads analyzed and documented after sandbox execution.
 
 More labs coming soon!
+
 

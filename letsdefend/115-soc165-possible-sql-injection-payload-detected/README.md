@@ -33,7 +33,7 @@
 ### What is SQL?
 Structured Query Language (SQL) is used to communicate with relational databases. It allows users to query, insert, update, and manage data.
 
-![SQL](images/sql.png)
+![SQL](images/SQL.png)
 
 ### What is SQL Injection (SQLi)?
 SQL Injection is a type of attack where malicious actors manipulate input fields or URL parameters to execute unintended SQL commands on a database.  

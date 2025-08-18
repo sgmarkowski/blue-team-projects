@@ -21,6 +21,10 @@ Each subfolder documents a scenario or alert simulation — complete with screen
 - **93 - SOC146 – Phishing Mail Detected (Excel 4.0 Macros)**  
   Excel 4.0 macro-based phishing email with DLL payloads analyzed and documented after sandbox execution.
 
+- **115 - SOC165 – Possible SQL Injection Payload Detected**  
+  Investigation of an attempted SQL Injection from an external IP to an internal web server; IOCs documented (source IP, domain, requested and decoded URL), host contained, case closed as a True Positive.
+
+
 More labs coming soon!
 
 

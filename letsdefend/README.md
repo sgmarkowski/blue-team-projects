@@ -24,6 +24,8 @@ Each subfolder documents a scenario or alert simulation — complete with screen
 - **115 - SOC165 – Possible SQL Injection Payload Detected**  
   Investigation of an attempted SQL Injection from an external IP to an internal web server; IOCs documented (source IP, domain, requested and decoded URL), host contained, case closed as a True Positive.
 
+- **116 - SOC166 – Javascript Code Detected in Requested URL**  
+  Detection and investigation of attempted XSS payloads injected through a URL query parameter. Analysis confirmed the source IP had a poor reputation and multiple payload attempts were observed. Attack was redirected (HTTP 302) and determined unsuccessful; incident closed as a True Positive.
 
 More labs coming soon!
 

@@ -20,7 +20,7 @@ Cross-Site Scripting (XSS) is a type of web attack where malicious JavaScript is
 
 In this case, the attack was **Reflected XSS** because the malicious payload was embedded in the URL query string.
 
-![XSS](image/xss.png)
+![XSS](images/xss.png)
 
 ---
 

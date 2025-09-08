@@ -28,20 +28,21 @@ In this case, the attack was **Reflected XSS** because the malicious payload was
 
 ### Alert Details
 Alert Metadata (from Investigation Channel):
-| Field                    | Value |
-|-------------------------:|-------|
-| **EventID**              | 116 |
-| **Event Time**           | Feb 26, 2022, 06:56 PM |
-| **Rule**                 | SOC166 - Javascript Code Detected in Requested URL |
-| **Level**                | Security Analyst |
-| **Hostname**             | WebServer1002 |
-| **Destination IP**       | 172.16.17.17 |
-| **Source IP**            | 112.85.42.13 |
-| **HTTP Request Method**  | GET |
-| **Requested URL**        | https://172.16.17.17/search/?q=<$script>javascript:$alert(1)<$/script> |
+
+| Field                    | Value                                                                    |
+|--------------------------|--------------------------------------------------------------------------|
+| **EventID**              | 116                                                                      |
+| **Event Time**           | Feb 26, 2022, 06:56 PM                                                   |
+| **Rule**                 | SOC166 - Javascript Code Detected in Requested URL                       |
+| **Level**                | Security Analyst                                                         |
+| **Hostname**             | WebServer1002                                                            |
+| **Destination IP**       | 172.16.17.17                                                             |
+| **Source IP**            | 112.85.42.13                                                             |
+| **HTTP Request Method**  | GET                                                                      |
+| **Requested URL**        | https://172.16.17.17/search/?q=<$script>javascript:$alert(1)<$/script>   |
 | **User-Agent**           | Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1 | 
-| **Alert Trigger Reason** | Javascript code detected in URL |
-| **Device Action**        | Allowed |
+| **Alert Trigger Reason** | Javascript code detected in URL                                          |
+| **Device Action**        | Allowed                                                                  |
 
 This rule triggered because the system detected JavaScript code embedded in the URL. Alerts must be tied back to the specific detection logic. This prevents analysts from misinterpreting alerts or overlooking why the SIEM flagged the traffic.
 
